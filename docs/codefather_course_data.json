@@ -1,0 +1,175 @@
+{
+  "source": "https://www.codefather.cn/course/2037104890135748610/section/2062843045639933954",
+  "crawled_at": "2026-11-11",
+  "current_section": "4. 方案设计",
+  "course": {
+    "title": "Python 全栈 | AI 闯关学习小程序项目教程",
+    "platform": "编程导航 - 一站式程序员学习交流社区",
+    "course_id": "2037104890135748610"
+  },
+  "sections": [
+    {
+      "title": "项目总览",
+      "section_id": "2087425443719335937",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2087425443719335937",
+      "free_preview": true,
+      "group": "overview"
+    },
+    {
+      "title": "项目大纲",
+      "section_id": "2087423572761956354",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2087423572761956354",
+      "free_preview": true,
+      "group": "overview"
+    },
+    {
+      "title": "项目源码",
+      "section_id": "2087423493787406338",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2087423493787406338",
+      "free_preview": false,
+      "group": "overview"
+    },
+    {
+      "title": "保姆级本地运行指南",
+      "section_id": "2087424541306441729",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2087424541306441729",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 0
+    },
+    {
+      "title": "AI 编程工具准备",
+      "section_id": "2037105636189184001",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2037105636189184001",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 0
+    },
+    {
+      "title": "1. 需求分析",
+      "section_id": "2062843468350279681",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2062843468350279681",
+      "free_preview": true,
+      "group": "tutorial",
+      "order": 1
+    },
+    {
+      "title": "2. 环境准备",
+      "section_id": "2062843292692828162",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2062843292692828162",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 2
+    },
+    {
+      "title": "3. 小程序知识",
+      "section_id": "2062843118918619138",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2062843118918619138",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 3
+    },
+    {
+      "title": "4. 方案设计",
+      "section_id": "2062843045639933954",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2062843045639933954",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 4,
+      "is_current": true
+    },
+    {
+      "title": "5. UI 原型设计开发",
+      "section_id": "2062842949376462849",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2062842949376462849",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 5
+    },
+    {
+      "title": "6. 核心功能开发",
+      "section_id": "2062842701652480002",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2062842701652480002",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 6
+    },
+    {
+      "title": "7. 用户系统开发",
+      "section_id": "2062842520773120001",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2062842520773120001",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 7
+    },
+    {
+      "title": "8. Bug 修复",
+      "section_id": "2062842306746175489",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2062842306746175489",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 8
+    },
+    {
+      "title": "9. AI 生成题目优化（联网搜索）",
+      "section_id": "2062842098461233153",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2062842098461233153",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 9
+    },
+    {
+      "title": "10. RAG 知识问答能力",
+      "section_id": "2087421729524731906",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2087421729524731906",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 10
+    },
+    {
+      "title": "11. AI 生图 + 对象存储",
+      "section_id": "2087422197206405122",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2087422197206405122",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 11
+    },
+    {
+      "title": "12. 发布上线",
+      "section_id": "2087423053960105986",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2087423053960105986",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 12
+    },
+    {
+      "title": "扩展思路",
+      "section_id": "2087424641118294017",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2087424641118294017",
+      "free_preview": false,
+      "group": "tutorial",
+      "order": 13
+    },
+    {
+      "title": "简历写法",
+      "section_id": "2087423791184531457",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2087423791184531457",
+      "free_preview": false,
+      "group": "appendix"
+    },
+    {
+      "title": "面试题解",
+      "section_id": "2087424377615339521",
+      "url": "https://www.codefather.cn/course/2037104890135748610/section/2087424377615339521",
+      "free_preview": false,
+      "group": "appendix"
+    }
+  ],
+  "stats": {
+    "total_sections": 20,
+    "free_preview_count": 3,
+    "login_required_count": 17,
+    "tutorial_chapters": 15,
+    "appendix_sections": 2
+  }
+}
