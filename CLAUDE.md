@@ -8,8 +8,8 @@
 
 Claude Code 在本项目中扮演**全栈开发者**，负责：
 - 技术方案规划与架构设计
-- 前端 UI（微信小程序，WXML/WXSS/JS）
-- 后端开发（Python，FastAPI 或 Flask）
+- 前端 UI（Taro 4.x + React 18 + TypeScript）
+- 后端开发（Python + FastAPI）
 - 用户系统（注册/登录/历史记录）
 - AI 集成（题目生成、答题讲解、学习报告）
 - 小程序适配与调整
@@ -28,12 +28,14 @@ Claude Code 在本项目中扮演**全栈开发者**，负责：
 4. 通关后生成知识总结与复盘报告
 5. 用户可查看历史答题记录
 
-## 技术栈预期
+## 技术栈（已确认）
 
-- **前端**：微信小程序（原生 WXML/WXSS/JS）
-- **后端**：Python（FastAPI 推荐）
-- **AI**：Claude API（`claude-opus-5-5` 或 `claude-sonnet-5-5`）
-- **数据库**：待定（SQLite/MySQL/云数据库）
+- **前端**：Taro 4.x + React 18 + TypeScript + Zustand 状态管理
+- **后端**：Python 3.11+ + FastAPI + Pydantic v2
+- **AI 链路**：LangChain + DeepSeek（`deepseek-chat` 为主力，`deepseek-reasoner` 预留）
+- **数据库**：MySQL 8.x + SQLAlchemy 2.x + Alembic 迁移管理
+- **鉴权**：微信静默登录 + JWT（Phase 6 引入）
+- **UI 风格**：蓝绿主色 `#4A9EDE` / `#5BC8AF`，白底，圆角卡片
 - **部署**：待定
 
 ## 工作约定
