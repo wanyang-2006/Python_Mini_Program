@@ -7,6 +7,7 @@
 ## 角色约定
 
 Claude Code 在本项目中扮演**全栈开发者**，负责：
+
 - 技术方案规划与架构设计
 - 前端 UI（Taro 4.x + React 18 + TypeScript）
 - 后端开发（Python，FastAPI）
@@ -44,3 +45,4 @@ Claude Code 在本项目中扮演**全栈开发者**，负责：
 - 涉及密钥、AppID、云配置等敏感信息时，只给出占位符，提示用户填写
 - 文件路径使用相对路径，前端代码放 `miniprogram/`，后端放 `backend/`，文档放 `docs/`
 - 无需为用户完成git commit操作，由用户自行提交commit
+- 在进行具体工作时，可自行使用可用的MCP、Skill等。例如，前端设计中使用fronted-design Skill。
