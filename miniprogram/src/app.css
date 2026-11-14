@@ -1,0 +1,59 @@
+/* ===== 全局设计 Token（WeChat 小程序根元素为 page） ===== */
+page {
+  --color-primary: #4A9EDE;
+  --color-secondary: #5BC8AF;
+  --color-bg: #f5f3ef;
+  --color-card: #faf9f6;
+  --color-nav: #faf9f6;
+  --color-text-primary: #2c3e50;
+  --color-text-secondary: #6b8296;
+  --color-text-muted: #8fa9be;
+  --color-border: #e5e0d8;
+  --color-error: #e06060;
+  --color-success: #42b08a;
+  --shadow-card: 0 1px 3px rgba(44,62,80,.05), 0 4px 14px rgba(44,62,80,.06);
+  --shadow-btn: 0 4px 16px rgba(74,158,222,.3);
+  --radius-card: 16px;
+  --radius-btn: 14px;
+
+  background-color: #f5f3ef;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  color: #2c3e50;
+}
+
+/* ===== 通用卡片 ===== */
+.card {
+  background: var(--color-card);
+  border-radius: var(--radius-card);
+  padding: 16px;
+  box-shadow: var(--shadow-card);
+  margin-bottom: 11px;
+}
+
+/* ===== 通用主按钮 ===== */
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(130deg, #4A9EDE, #5BC8AF);
+  border-radius: var(--radius-btn);
+  box-shadow: var(--shadow-btn);
+  margin-bottom: 12px;
+}
+.btn-primary-text {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+/* ===== 分区标题 ===== */
+.section-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 9px;
+}

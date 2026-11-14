@@ -1,0 +1,40 @@
+{
+  "name": "ai-quiz-miniprogram",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI 答题闯关学习小程序",
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "build:h5": "taro build --type h5",
+    "dev:h5": "npm run build:h5 -- --watch"
+  },
+  "browserslist": [
+    "last 3 Chrome versions",
+    "last 3 Firefox versions",
+    "last 3 Opera versions",
+    "last 3 Edge versions"
+  ],
+  "dependencies": {
+    "@tarojs/components": "4.3.2",
+    "@tarojs/plugin-platform-weapp": "4.3.2",
+    "@tarojs/react": "^4.3.2",
+    "@tarojs/runtime": "4.3.2",
+    "@tarojs/taro": "4.3.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@babel/preset-react": "^7.29.7",
+    "@tarojs/cli": "4.3.2",
+    "@tarojs/helper": "4.3.2",
+    "@tarojs/plugin-framework-react": "4.3.2",
+    "@tarojs/webpack5-runner": "4.3.2",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "babel-preset-taro": "4.3.2",
+    "typescript": "^5.0.0"
+  }
+}
