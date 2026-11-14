@@ -1,0 +1,42 @@
+diff --git a/node_modules/@tarojs/runtime/dist/bom/raf.js b/node_modules/@tarojs/runtime/dist/bom/raf.js
+index 1133971..7aea462 100644
+--- a/node_modules/@tarojs/runtime/dist/bom/raf.js
++++ b/node_modules/@tarojs/runtime/dist/bom/raf.js
+@@ -22,19 +22,24 @@ let lastTime = 0;
+ const _hasNativeRaf = process.env.TARO_PLATFORM === 'web' &&
+     typeof requestAnimationFrame !== 'undefined' &&
+     typeof cancelAnimationFrame !== 'undefined';
+-const _raf = _hasNativeRaf
+-    ? requestAnimationFrame
+-    : function (callback) {
+-        const _now = now();
+-        const nextTime = Math.max(lastTime + 16, _now); // First time will execute it immediately but barely noticeable and performance is gained.
+-        return setTimeout(function () { callback(lastTime = nextTime); }, nextTime - _now);
+-    };
+-const _caf = _hasNativeRaf
+-    ? cancelAnimationFrame
+-    : function (seed) {
+-        // fix https://github.com/NervJS/taro/issues/7749
+-        clearTimeout(seed);
+-    };
++// FIX: use function declarations (fully hoisted) instead of const to avoid TDZ
++// when ProvidePlugin's circular require accesses this module's exports before
++// the module body has finished executing.
++function _raf(callback) {
++    if (_hasNativeRaf) {
++        return requestAnimationFrame(callback);
++    }
++    const _now = now();
++    const nextTime = Math.max(lastTime + 16, _now);
++    return setTimeout(function () { callback(lastTime = nextTime); }, nextTime - _now);
++}
++function _caf(seed) {
++    if (_hasNativeRaf) {
++        return cancelAnimationFrame(seed);
++    }
++    // fix https://github.com/NervJS/taro/issues/7749
++    clearTimeout(seed);
++}
+ 
+ export { _caf as caf, now, _raf as raf };
+ //# sourceMappingURL=raf.js.map
